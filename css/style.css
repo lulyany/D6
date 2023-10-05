@@ -1,0 +1,122 @@
+body{
+   /* Set line spacing */
+   line-height: 150%;
+   margin: 10px;
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    margin: 10px 10px 10px 10px;
+    padding: 10px 9px 8px 7px;
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    /* displayed horizontally with some space between them. Adding padding and a background color. Change the font size.
+     */
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    background-color: antiquewhite;
+    font-size: 200%;
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    /* Set color */
+    color: black;
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    /* Style the current class so that you have a wavy underline */
+    /* Make the text all uppercase. */
+    text-decoration: underline wavy;
+    text-transform: uppercase;
+    text-underline-offset: 20px;
+}
+
+
+h1{
+   /*Set font and font size*/
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 20px 10px;
+    background-color: bisque;
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    box-shadow: 10px 0px 10px gray;
+}
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+    box-shadow: -10px 0px 10px gray;
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+     /* both side shadow */
+     box-shadow: 10px 0px 10px gray, -10px 0px 10px gray;
+}
+    
+
+p + p {
+     /* Set indentation */
+     text-indent:8px;
+}
+  
+p{
+     /* Set margin */
+     margin-top: 10px;
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+    margin: 0 0 10px 20px;
+    line-height: 100%;
+    list-style: url(../images/sketchbook.png);
+}
